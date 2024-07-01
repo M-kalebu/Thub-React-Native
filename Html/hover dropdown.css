@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.parent{
+cursor: pointer;
+ position: relative;
+ font-size: 80px;
+}
+
+.child1{
+    background-color: rgb(17, 150, 203);
+    width: fit-content;
+    color: white;
+    border-radius: 18px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.child2{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid green; */
+    display: none;
+    top: 110px;
+    left: 50px;
+}
+.child2 div{
+    border-bottom: 1px solid black;
+}
+.parent:hover .child2{
+    display: block;
+}
+.child2 div:hover{
+    background-color: rgb(67, 149, 182) ;
+    color: white;
+    transition: all 0.7s;
+}
+
+child1:hover{
+    transition: all 0.8s;
+}
+
+.child1:hover{
+    box-shadow: 0px 0px 5px 5px rgb(17, 150, 203) ;
+}

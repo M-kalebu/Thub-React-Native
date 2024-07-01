@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-ticket{
+    width: 60%;
+    height: 40%;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid black solid black; */
+    box-shadow: 0px 0px 20px  rgba(79, 68, 68, 0.686);
+    border-radius: 15px;
+}
+.top{
+    width: 70%;
+    height: 65%;
+    background: url('../Images/summer-orange-color-background-sun-260nw-182065802.webp');
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.; */
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.top-img {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    bottom: 15px;
+    left: -58px;
+    opacity: 0.3;
+}
+.tb-logo {
+    width: 30%;
+    height: 20%;
+}
+.header{
+    font-size: 40px;
+    position: relative;
+    left: 70px;
+    top: -15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-shadow: 0px 0px 15px black;
+}
+    .folllow{
+        display: flex;
+    }
+.right{
+    width: 30%;
+    height: 100%;
+    background:linear-gradient(to right,red,black);
+    position: absolute;
+    opacity: 0.8;
+    right: 0;
+    bottom: 0;
+}
+.barcode{
+    width: 60px;
+    height: 230px;
+    position: relative;
+    bottom: -45px;
+    margin-left: 15px;
+}
+.pass{
+    color: white;
+    position: relative;
+    left: 100px;
+    bottom: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.owlcoder{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 130px;
+    bottom: 220px;
+}
+.border{
+    border-bottom: 1px solid black solid white;
+    position: relative;
+    left: 100px;
+    bottom: 260px;
+    margin-right: 120px;
+}
+.id{
+    background-color: rgb(32, 26, 26);
+    width: 160px;
+    height: 30px;
+    position: relative;
+    left: 100px;
+    bottom: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px solid black;
+    text-shadow: 0px 0px 2px white;
+}
+.bottom{
+    width: 70%;
+    height: 35%;
+    background: linear-gradient(to right,rgb(255, 166, 0),white,black);
+    display: flex;
+    opacity: 0.8;
+}
+
+
+.ven{
+    position: relative;
+    top: -15px;
+    left: 100px;
+}
+.address{
+    position: relative;
+    bottom: -20px;
+    left: -60px;
+    margin-left: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    width: fit-content;
+    height: fit-content;
+}
+.border-left{
+    border: 1px solid black;    
+    position: relative;
+    right: 20px;
+    opacity: 0.6;
+}
+.time{
+    position: relative;
+    bottom: 100px;
+    left: 350px;
+    font-size: 30px;
+}
+
+.time tr{
+    padding: 10px;
+    color:red;
+    text-shadow: 0px 0px 1px grey;
+}
+
+.time tr th{
+    color: black;
+}
+
+table,td{
+    border: 1px solid white;
+    font-weight: bold;
+    border: none;
+}
+
+table,th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border: none;
+}

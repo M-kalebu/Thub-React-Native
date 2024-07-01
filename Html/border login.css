@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    margin-left: 50px;
+    transition: ease-out 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.background:hover{
+    box-shadow: 2px 0px 10px 10px  rgb(94, 97, 96);
+    transition: ease-in 1s;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 80px;
+    color: red;
+    width: 500px;
+    height: 600px;
+}

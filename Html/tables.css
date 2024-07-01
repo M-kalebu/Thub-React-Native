@@ -1,0 +1,31 @@
+table,td{
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    text-align: center; 
+    border: none;
+    font-size: 45px;
+}
+
+tr:first-child{
+    background-color: rgb(65, 190, 19);
+    color: white;
+    font-weight: 700;
+}
+
+tr:nth-child(even){
+    background-color: grey;
+}
+
+td{
+    padding: 5px 10px;
+
+}
+
+table{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+
+

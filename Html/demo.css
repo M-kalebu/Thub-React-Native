@@ -1,0 +1,12 @@
+.block{
+    background-color: lightblue;
+    margin: 15px 20px;
+    padding: 10px 30px;
+}
+
+.inline{
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+   margin: 20px 0px;
+}

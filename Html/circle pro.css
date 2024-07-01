@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.main{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.circle{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(219, 162, 181);
+    border-radius: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 2px solid black;
+    display: inline-block;
+    border-right: 2px solid;
+
+}
+
+.white1{
+    width: 150px;
+    height: 200px;
+    background-color: aliceblue;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.eye1{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+}
+.white2{
+    width: 150px;
+    height: 200px;
+    background-color: aliceblue;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.eyes{
+    /* background-color: red; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* height: fit-content; */
+     margin-top: 110px;
+}
+
+.rectangle{
+    background-color: aliceblue;
+    width: 170px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: 1px solid black;
+}
+
+.eye1:hover{
+    box-shadow: 0px 0px 10px 5px red;
+    transition: all 1s;
+}
